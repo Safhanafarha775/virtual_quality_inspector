@@ -1,56 +1,32 @@
-# Virtual Quality Inspector 🏭🔍
+# 🏭 Virtual Quality Inspector - AI-Powered Defect Detection
 
-## Project Overview
-A Computer Vision based automated quality inspection system that detects
-defects, color inconsistencies, blur, and dimension variations in products
-using OpenCV and Python.
+A computer vision system simulating manufacturing quality control using OpenCV and Python. Detects defects, analyzes sharpness, and provides pass/fail decisions without physical hardware.
 
-This project simulates a real-world manufacturing quality control system.
+## 🚀 Live Demo
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qN9bs29Ht7C7gkJw4bhOw4sdlPCWvJqk?usp=drive_link)
 
-## Features
-- 📏 Dimension verification
-- 🎨 Color consistency checking
-- ⚡ Blur & sharpness detection
-- 🧩 Defect detection using edges & contours
-- ✅ Pass / Fail quality decision
-- 📊 Visual inspection report
+## ✨ Features
+- **Defect Detection**: Identifies scratches, dents, anomalies via edge analysis
+- **Quality Metrics**: Measures sharpness, brightness, dimensions
+- **Visual Reports**: Side-by-side comparison with defect highlighting
+- **Automated Decision**: PASS/FAIL based on configurable thresholds
 
-## Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Matplotlib
-- Google Colab
+## 🛠️ Technologies
+- Python, OpenCV, NumPy, Matplotlib
+- Google Colab (cloud execution)
+- Computer Vision algorithms (Canny edge, contour detection)
 
-## How It Works
-1. Upload product images
-2. System analyzes:
-   - Size
-   - Color
-   - Edges
-   - Blur
-3. Generates visual report
-4. Gives PASS / FAIL result
 
-## How to Run
-1. Open the notebook in Google Colab
-2. Upload images when prompted
+## 🎯 How to Use
+1. Click "Open in Colab" above
+2. Upload any product image
 3. Run all cells
-4. View inspection results
+4. View defect analysis and quality report
 
-## Sample Use Cases
-- Manufacturing quality inspection
-- Defect detection
-- Visual inspection automation
-- Computer vision learning project
+## 📊 Sample Output
+![Defect Detection Sample](samples/Scattered Desk Essentials_simple_compose.png)
 
-## Future Improvements
-- Deep Learning defect detection
-- Real-world measurement calibration
-- Batch inspection
-- Web dashboard
-
-## Author
-Safhana Farhath  
-(Data Science & Robotics Enthusiast)
-
+## 🔮 Future Enhancements
+- Deep learning-based defect classification
+- Real-time video inspection
+- Integration with robotic inspection systems

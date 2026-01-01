@@ -8,7 +8,7 @@ A computer vision system simulating manufacturing quality control using OpenCV a
 ## 📸 Sample Results
 | Good Sample | Defective Sample |
 |-------------|------------------|
-| ![Good Sample](virtual_quality_inspector/Scattered Desk Essentials_simple_compose.png) | ![Defective Sample](virtual_quality_inspector/defected sample.png) |
+| ![Good Sample](virtual_quality_inspector/Scattered Desk Essentials_simple_compose.png) | ![Defective Sample](https://github.com/Safhanafarha775/virtual_quality_inspector/blob/4ca5c9a01fa23d6b76d3686f2586ba698a792a8b/defected%20sample.png) |
 *Output: "PASS - No defects detected"* | *Output: "REJECT - Multiple defects found"*
 
 ## 🛠️ How It Works
